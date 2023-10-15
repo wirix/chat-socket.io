@@ -1,0 +1,45 @@
+.navber {
+	height: 50px;
+	background-color: lightseagreen;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	color: wheat;
+}
+
+.logo {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.icons {
+	display: flex;
+	align-items: center;
+}
+
+.icon {
+	position: relative;
+	margin-left: 15px;
+	cursor: pointer;
+}
+
+.iconImg {
+	width: 20px;
+	height: 20px;
+}
+
+.counter {
+	width: 5px;
+	height: 5px;
+	background-color: red;
+	padding: 5px;
+	border-radius: 50%;
+	font-size: 12px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	position: absolute;
+	top: -5px;
+	right: -5px;
+}
