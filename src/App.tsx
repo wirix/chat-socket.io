@@ -37,10 +37,7 @@ export const App = () => {
   };
 
   useEffect(() => {
-    // const socket = io('http://localhost:5000');
-    // console.log(socket.on('firstEvent', (msg) => {
-    //   console.log(msg)
-    // }));
+
     setSocket(io('http://localhost:5000'));
   }, []);
 

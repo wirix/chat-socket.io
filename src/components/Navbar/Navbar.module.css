@@ -43,3 +43,12 @@
 	top: -5px;
 	right: -5px;
 }
+
+.notifications {
+	position: absolute;
+	top: 50px;
+	right: 0;
+	background-color: #fff;
+	color: black;
+	font-weight: 300;
+}
